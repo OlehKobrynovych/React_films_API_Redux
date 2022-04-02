@@ -6,7 +6,7 @@ import { setCurrentUsers_ActionCreater, setRemoveCurrentUsers_ActionCreater } fr
 
 const Users = React.memo(() => {
     const users = useSelector(state => state.users_reducer.users);
-
+// debugger
     const dispatch = useDispatch();
 
     const navigate = useNavigate();

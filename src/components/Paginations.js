@@ -29,7 +29,7 @@ const Paginations = React.memo(() => {
     console.log('Paginations');
 
     return ( 
-        <div>
+        <div className='bg-secondary'>
             <Pagination>
                 <Pagination.Prev 
                     disabled={pages.prev ? false : true} 

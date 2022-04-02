@@ -31,13 +31,13 @@ const Home = React.memo(() => {
     console.log('Home');
 
     return ( 
-        <div className="s-home">
-            <div className="c-home__title">Home</div>
+        <div className="s-home bg-secondary">
+            {/* <div className="c-home__title bg-secondary">Home</div> */}
 
             <div className="c-home__items">
                 <Filter />
 
-                <CurrentUsers />
+                {/* <CurrentUsers /> */}
 
                 {users.length ? <Users /> : (<div>No items</div>)}
 
