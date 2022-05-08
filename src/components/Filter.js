@@ -28,9 +28,9 @@ const Filter = () => {
     return (
         <Row className="mb-3">
 
-            <Form.Group as={Col} controlId="formGridCity">
+            <Form.Group as={Col} controlId="formGridState">
                 <Form.Label>Search Name</Form.Label>
-                <input  value={nameSearch} onChange={(e) => handleChange(e.target.value)} />
+                <input className='d-block' value={nameSearch} onChange={(e) => handleChange(e.target.value)} />
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridState">

@@ -11,7 +11,7 @@ const About = React.lazy(() => import('./components/About'));
 
 function App() {
     return (
-        <div className="App">
+        <div className="App bg-secondary">
             <BrowserRouter basename={process.env.PUBLIC_URL} >
             {/* <BrowserRouter> */}
                 <Container>

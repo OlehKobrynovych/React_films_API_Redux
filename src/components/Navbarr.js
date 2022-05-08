@@ -6,13 +6,13 @@ function Navbarr() {
         <Navbar bg="dark" variant="dark">
 
         <ul className="nav nav-pills" >
-            <li className="nav-item">
+            <li className="nav-item mx-3">
                 <NavLink className="nav-link" aria-current="page" to="/home">Home</NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-3">
                 <NavLink className="nav-link" to="/about">About Persone</NavLink>
             </li>
-            <li className="nav-item">
+            <li className="nav-item mx-3">
                 {/* <NavLink className="nav-link" to="/user:id">User</NavLink> */}
             </li>
         </ul>
