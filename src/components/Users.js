@@ -30,12 +30,12 @@ const Users = React.memo(() => {
     console.log('Users');
 
     return ( 
-        <Row xs={1} sm={2} md={3} lg={4} className="g-4">
+        <Row  className="g-4">
             {users.map(el => (
-                <Col key={el.id} className='d-flex'>
+                <Col xs={12} sm={6} md={4} lg={3} key={el.id}>
                     <Card >
                         <Card.Img variant="top" src={el.image} />
-                        <Card.Body>
+                        <Card.Body className='bg-light' >
                         <Card.Title style={{cursor: 'pointer'}} onClick={(e) => handleClick(e, el.id)} >{el.name}</Card.Title>
                         <Card.Text>
                             {el.status=='Alive' && 'Alive'}

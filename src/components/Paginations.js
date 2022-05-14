@@ -29,13 +29,12 @@ const Paginations = React.memo(() => {
     console.log('Paginations');
 
     return ( 
-        <div className='bg-secondary'>
-            <Pagination>
+        <div className=''>
+            <Pagination className='flex-wrap'>
                 <Pagination.Prev 
                     disabled={pages.prev ? false : true} 
                     onClick={() => handleClick(page - 1)}
                 />
-
                 {Array.from({ length: pages.pages }).map((el, index) => (
                     <Pagination.Item 
                         key={index}
@@ -45,7 +44,6 @@ const Paginations = React.memo(() => {
                         {index + 1}
                     </Pagination.Item>
                 ))}	
-
                 {/* <Pagination.Ellipsis /> */}
 
                 <Pagination.Next 
