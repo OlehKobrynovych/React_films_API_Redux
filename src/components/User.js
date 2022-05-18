@@ -7,6 +7,7 @@ import { getUserThunk } from "../store/users_reducer";
 function User() {
     const user = useSelector(state => state.users_reducer.user);
 // debugger
+
     const dispatch = useDispatch();
 
     const { id } = useParams();
