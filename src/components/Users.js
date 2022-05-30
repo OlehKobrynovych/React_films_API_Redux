@@ -18,7 +18,7 @@ const Users = React.memo(() => {
         navigate(`/user/${id}`);
     };
    
-    const hendlerChange = (e, id) => {
+    const handlerChange = (e, id) => {
         if (e.target.checked) {
 
             dispatch(setCurrentUsers_ActionCreater(id));
@@ -33,7 +33,7 @@ const Users = React.memo(() => {
         <Row  className="g-4">
             {users.map(el => (
                 <Col xs={12} sm={6} md={4} lg={3} key={el.id}>
-                    <Card >
+                    <Card className="users-card" >
                         <Card.Img variant="top" src={el.image} />
                         <Card.Body className='bg-light' >
                         <Card.Title style={{cursor: 'pointer'}} onClick={(e) => handleClick(e, el.id)} >{el.name}</Card.Title>
@@ -48,7 +48,7 @@ const Users = React.memo(() => {
                             label={`${'favorite hero'}`}
                             checked={currentUsersId.some(ell => ell===el.id)}
                             aria-label="option 1" 
-                            onChange={(e) => hendlerChange(e, el.id)} 
+                            onChange={(e) => handlerChange(e, el.id)} 
                         />
                         </Card.Body>
                     </Card>

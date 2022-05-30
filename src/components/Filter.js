@@ -29,14 +29,14 @@ const Filter = () => {
         <Row className="mb-3">
             <Col xs={12} sm={12} md={4} lg={4}>
                 <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>Search Name</Form.Label>
-                    <Form.Control value={nameSearch} onChange={(e) => handleChange(e.target.value)} />
+                    <Form.Label className="filter__title" >Search Name</Form.Label>
+                    <Form.Control placeholder="Search Name" value={nameSearch} onChange={(e) => handleChange(e.target.value)} />
                 </Form.Group>
             </Col>
 
             <Col xs={12} sm={12} md={4} lg={4}>
                 <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>Search Gender</Form.Label>
+                    <Form.Label className="filter__title">Search Gender</Form.Label>
                     <Form.Select value={genderSearch} onChange={(e) => handleChangeGender(e.target.value)}>
                         <option value={''} >All Gender</option>
                         <option value={'Female'} >Female</option>
@@ -49,7 +49,7 @@ const Filter = () => {
 
             <Col xs={12} sm={12} md={4} lg={4}>
                 <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>Search Species</Form.Label>
+                    <Form.Label className="filter__title">Search Species</Form.Label>
                     <Form.Select value={speciesSearch} onChange={(e) => handleChangeSpecies(e.target.value)}>
                         <option value={''} >All Species</option>
                         <option value={'Human'} >Human</option>

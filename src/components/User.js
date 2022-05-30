@@ -21,22 +21,26 @@ function User() {
     return ( 
         <div>
             {user?.id ? 
-                <div>
-                    <img style={{width:'200px'}} src={user.image} />
-                    <div>Name: '{user.name}'</div>    
-                    <div>Gender: "{user.gender}"</div>    
-                    <div>Status: "{user.status}"</div>    
-                    <div>Species: "{user.species}"</div>    
-                    <div>Type: "{user.type}"</div>
-                    <div>
-                        <div>location name: "{user.location.name}"</div>    
-                        <div>location: "{user.location.url}"</div>    
-                    </div>    
-                    <div>
-                        <div>origin name: "{user.origin.name}"</div>    
-                        <div>origin: "{user.origin.url}"</div>    
-                    </div>    
-                    <div>Episode: {user.episode.map((el, index)=><div key={index}>{el}</div>)}</div>    
+                <div className='m-3' >
+                    <div className="d-flex justify-content-center" >
+                        <img className='user__img' src={user.image} />
+                    </div>
+                    <div className="user__text">
+                        <div>Name: '{user.name}'</div>    
+                        <div>Gender: "{user.gender}"</div>    
+                        <div>Status: "{user.status}"</div>    
+                        <div>Species: "{user.species}"</div>    
+                        <div>Type: "{user.type}"</div>
+                        <div>
+                            <div>location name: "{user.location.name}"</div>    
+                            <div>location: "{user.location.url}"</div>    
+                        </div>    
+                        <div>
+                            <div>origin name: "{user.origin.name}"</div>    
+                            <div>origin: "{user.origin.url}"</div>    
+                        </div>    
+                        <div>Episode: {user.episode.map((el, index)=><div key={index}>{el}</div>)}</div>    
+                    </div>
                 </div>
             : 'Not user'}
         </div>
