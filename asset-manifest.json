@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/React_films_API_Redux/static/css/main.313dc7d9.css",
-    "main.js": "/React_films_API_Redux/static/js/main.eaff1243.js",
-    "static/js/634.2f7ea9a4.chunk.js": "/React_films_API_Redux/static/js/634.2f7ea9a4.chunk.js",
-    "static/js/173.3db2e709.chunk.js": "/React_films_API_Redux/static/js/173.3db2e709.chunk.js",
-    "static/js/956.4a609c40.chunk.js": "/React_films_API_Redux/static/js/956.4a609c40.chunk.js",
+    "main.css": "/React_films_API_Redux/static/css/main.b86bcd5d.css",
+    "main.js": "/React_films_API_Redux/static/js/main.adc25cd0.js",
+    "static/js/235.326347ed.chunk.js": "/React_films_API_Redux/static/js/235.326347ed.chunk.js",
+    "static/js/173.2befda52.chunk.js": "/React_films_API_Redux/static/js/173.2befda52.chunk.js",
+    "static/js/956.b38fa8e4.chunk.js": "/React_films_API_Redux/static/js/956.b38fa8e4.chunk.js",
     "static/js/787.a874c0b1.chunk.js": "/React_films_API_Redux/static/js/787.a874c0b1.chunk.js",
+    "static/js/882.00e5f356.chunk.js": "/React_films_API_Redux/static/js/882.00e5f356.chunk.js",
+    "static/media/portal.jpg": "/React_films_API_Redux/static/media/portal.e5b3ee0fbe2360281938.jpg",
     "static/media/Dead.png": "/React_films_API_Redux/static/media/Dead.fc146fc9d859e8da88f1.png",
     "index.html": "/React_films_API_Redux/index.html",
-    "main.313dc7d9.css.map": "/React_films_API_Redux/static/css/main.313dc7d9.css.map",
-    "main.eaff1243.js.map": "/React_films_API_Redux/static/js/main.eaff1243.js.map",
-    "634.2f7ea9a4.chunk.js.map": "/React_films_API_Redux/static/js/634.2f7ea9a4.chunk.js.map",
-    "173.3db2e709.chunk.js.map": "/React_films_API_Redux/static/js/173.3db2e709.chunk.js.map",
-    "956.4a609c40.chunk.js.map": "/React_films_API_Redux/static/js/956.4a609c40.chunk.js.map",
-    "787.a874c0b1.chunk.js.map": "/React_films_API_Redux/static/js/787.a874c0b1.chunk.js.map"
+    "main.b86bcd5d.css.map": "/React_films_API_Redux/static/css/main.b86bcd5d.css.map",
+    "main.adc25cd0.js.map": "/React_films_API_Redux/static/js/main.adc25cd0.js.map",
+    "235.326347ed.chunk.js.map": "/React_films_API_Redux/static/js/235.326347ed.chunk.js.map",
+    "173.2befda52.chunk.js.map": "/React_films_API_Redux/static/js/173.2befda52.chunk.js.map",
+    "956.b38fa8e4.chunk.js.map": "/React_films_API_Redux/static/js/956.b38fa8e4.chunk.js.map",
+    "787.a874c0b1.chunk.js.map": "/React_films_API_Redux/static/js/787.a874c0b1.chunk.js.map",
+    "882.00e5f356.chunk.js.map": "/React_films_API_Redux/static/js/882.00e5f356.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.313dc7d9.css",
-    "static/js/main.eaff1243.js"
+    "static/css/main.b86bcd5d.css",
+    "static/js/main.adc25cd0.js"
   ]
 }
